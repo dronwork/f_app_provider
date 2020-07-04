@@ -1,3 +1,4 @@
+import '../widgets/top_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -6,7 +7,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(children: <Widget>[
-
+        TopBar(),
       ]),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
